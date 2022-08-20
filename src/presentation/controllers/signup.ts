@@ -17,7 +17,7 @@ export class SignUpController {
 
     return {
       statusCode: 400,
-      body: new Error('Missing param: email')
+      body: new Error('general error')
     }
   }
 }
